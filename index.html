@@ -13,7 +13,8 @@
     <body>
         <div class="container-fluid" id="containerPrincipal">
             <div class="row" id="Cabecalho">
-                <div class="container" id="ContainerCabecalho"> <header
+                <div class="container" id="ContainerCabecalho">
+                    <header
                         class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
                         <a href="/"
                             class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
@@ -25,7 +26,8 @@
                                     href="#" class="nav-link active"
                                     aria-current="page">Início</a></li> <li
                                 class="nav-item"><a href="#"
-                                    class="nav-link">Encontre um médico</a></li> <li
+                                    class="nav-link">Encontre um médico</a></li>
+                            <li
                                 class="nav-item"><a href="#"
                                     class="nav-link">Aplicativos</a></li> <li
                                 class="nav-item"><a href="#"
@@ -34,27 +36,37 @@
                                     class="nav-link">Sobre nós</a></li> </ul>
                     </header> </div>
             </div>
-            <div class="row">
-                <div class="col-6">
-                    <h1>Atendimento virtual de saúde para você</h1>
-                    <p>A Trafalgar oferece cuidados de saúde progressivos e acessíveis, disponíveis no celular e online para todos.</p>
-                    <button>Consulte hoje mesmo</button>
+            <div class="row my-4" id="AtendimentoVirtual">
+                <div class="col-6 px-4 py-4 mt-5" id="TextoAtendimentoVirtual">
+                    <h1 class="mx-3">Atendimento virtual de saúde para você</h1>
+                    <p class="mx-3">A Trafalgar oferece cuidados de saúde
+                        progressivos e acessíveis, disponíveis no celular e
+                        online para todos.</p>
+                    <button class="mx-3">Consulte hoje mesmo</button>
                 </div>
-                <div class="col-6">
-                    <img src="img/VirtualHealthCare.png" alt="Atendimento virtual de saúde para você">
+                <div class="col-6" id="ImagemAtendimentoVirtual">
+                    <img src="img/VirtualHealthCare.png"
+                        alt="Atendimento virtual de saúde para você">
                 </div>
             </div>
-            <div class="row">
+            <div class="row id="Servicos">
                 <div class="col-12">
-                    <h2>Nossos serviços</h2>
-                    <p>Oferecemos as melhores opções para você. Ajuste de acordo com suas necessidades de saúde e certifique-se de realizar o tratamento <br>com nossos médicos altamente qualificados. Você pode consultar conosco qual tipo de serviço é mais adequado para sua saúde.</p>
+                    <h2 class="text-center">Nossos serviços</h2>
+                    <p class="text-center">Oferecemos as melhores opções para
+                        você. Ajuste de acordo com suas necessidades de saúde e
+                        certifique-se de realizar o tratamento <br>com nossos
+                        médicos altamente qualificados. Você pode consultar
+                        conosco qual tipo de serviço é mais adequado para sua
+                        saúde.</p>
                 </div>
             </div>
-            <div class="container-sm">
-                <div class="row">
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;" id="CardBuscarMedico">
-                            <img src="img/SearchDoctor.png"  height="45px" class="my-2 mx-2" width="45px" alt="...">
+            <div class="container" id="CardsServicos">
+                <div class="row mx-2 px-2" id="PrimeiraRowCardsServicos">
+                    <div class="col-3 mx-3 my-3">
+                        <div class="card mx-3" style="width: 18rem;"
+                            id="CardBuscarMedico">
+                            <img src="img/SearchDoctor.png" height="45px"
+                                class="my-2 mx-2" width="45px" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Buscar médico</h5>
                                 <p class="card-text">Some quick example text to
@@ -65,9 +77,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;" id="CardFarmaciaOnline">
-                            <img src="img/OnlinePharmacy.png"  height="45px" class="my-2 mx-2" width="45px" alt="...">
+                    <div class="col-3 mx-3 my-3">
+                        <div class="card mx-3" style="width: 18rem;"
+                            id="CardFarmaciaOnline">
+                            <img src="img/OnlinePharmacy.png" height="45px"
+                                class="my-2 mx-2" width="45px" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Farmácia online</h5>
                                 <p class="card-text">Some quick example text to
@@ -78,9 +92,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;" id="CardConsulta">
-                            <img src="img/Consultation.png"  height="45px" class="my-2 mx-2" width="45px" alt="...">
+                    <div class="col-3 mx-3 my-3">
+                        <div class="card mx-3" style="width: 18rem;"
+                            id="CardConsulta">
+                            <img src="img/Consultation.png" height="45px"
+                                class="my-2 mx-2" width="45px" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Consulta</h5>
                                 <p class="card-text">Some quick example text to
@@ -92,10 +108,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..."  height="45px" class="my-2 mx-2" width="45px" alt="...">
+                <div class="row mx-2 px-2" id="SegundaRowCardsServicos">
+                    <div class="col-3 mx-3 my-3">
+                        <div class="card mx-3" style="width: 18rem;">
+                            <img src="..." height="45px" class="my-2 mx-2"
+                                width="45px" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Details info</h5>
                                 <p class="card-text">Some quick example text to
@@ -106,23 +123,30 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..."  height="45px" class="my-2 mx-2" width="45px" alt="...">
+                    <div class="col-3 mx-3 my-3">
+                        <div class="card mx-3" style="width: 18rem;">
+                            <img src="..." height="45px" class="my-2 mx-2"
+                                width="45px" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title">Atendimento de emergência</h5>
-                                <p class="card-text">Você pode obter atendimento urgente 24/7 para você, seus filhos e sua família querida.</p>
+                                <h5 class="card-title">Atendimento de
+                                    emergência</h5>
+                                <p class="card-text">Você pode obter atendimento
+                                    urgente 24/7 para você, seus filhos e sua
+                                    família querida.</p>
                                 <a href="#" class="btn btn-primary">Go
                                     somewhere</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;" id="CardRastreamento">
-                            <img src="..."  height="45px" class="my-2 mx-2" width="45px" alt="...">
+                    <div class="col-3 mx-3 my-3">
+                        <div class="card mx-3" style="width: 18rem;"
+                            id="CardRastreamento">
+                            <img src="..." height="45px" class="my-2 mx-2"
+                                width="45px" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Rastreamento</h5>
-                                <p class="card-text">Acompanhe e salve seu histórico médico e dados de saúde.</p>
+                                <p class="card-text">Acompanhe e salve seu
+                                    histórico médico e dados de saúde.</p>
                                 <a href="#" class="btn btn-primary">Go
                                     somewhere</a>
                             </div>
@@ -130,27 +154,34 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6">
-                    <img src alt>
+            <div class="row" id="Lideres">
+                <div class="col-6" id="ImagemLideres">
+                    <img src="img/LideresEmCuidadosDeSaude.png" alt>
                 </div>
                 <div class="col-6">
                     <h1>Líderes em cuidados de saúde</h1>
-                    <p>A Trafalgar oferece cuidados de saúde progressivos e acessíveis, disponíveis no celular e online para todos. Para nós, não é apenas trabalho. Temos orgulho das soluções que entregamos.</p>
+                    <p>A Trafalgar oferece cuidados de saúde progressivos e
+                        acessíveis, disponíveis no celular e online para todos.
+                        Para nós, não é apenas trabalho. Temos orgulho das
+                        soluções que entregamos.</p>
                     <button>Saiba mais</button>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6">
+            <div class="row" id="Download">
+                <div class="col-6" id="TextoDownload">
                     <h1>Baixe nossos aplicativos móveis</h1>
-                    <p>Nosso aplicativo dedicado de engajamento com o paciente e portal web permitem que você acesse informações instantaneamente (sem formulários tediosos, longas ligações ou burocracia administrativa) e com segurança.</p>
+                    <p>Nosso aplicativo dedicado de engajamento com o paciente e
+                        portal web permitem que você acesse informações
+                        instantaneamente (sem formulários tediosos, longas
+                        ligações ou burocracia administrativa) e com
+                        segurança.</p>
                     <button>Download</button>
                 </div>
-                <div class="col-6">
-                    <img src alt>
+                <div class="col-6" id="ImagemDownload">
+                    <img src="img/DownloadOurMobileApps.png" alt>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" id="Depoimentos">
                 <div id="carouselExampleSlidesOnly" class="carousel slide"
                     data-ride="carousel">
                     <div class="carousel-inner">
@@ -158,7 +189,8 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12">
-                                        <h1>O que nossos clientes estão dizendo</h1>
+                                        <h1>O que nossos clientes estão
+                                            dizendo</h1>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -168,7 +200,13 @@
                                         <p>Founder Circle</p>
                                     </div>
                                     <div class="col-6">
-                                        <p>Nosso aplicativo dedicado de engajamento com o paciente e portal web permitem que você acesse informações instantaneamente (sem formulários tediosos, longas ligações ou burocracia administrativa) e com segurança.</p>
+                                        <p>Nosso aplicativo dedicado de
+                                            engajamento com o paciente e portal
+                                            web permitem que você acesse
+                                            informações instantaneamente (sem
+                                            formulários tediosos, longas
+                                            ligações ou burocracia
+                                            administrativa) e com segurança.</p>
                                     </div>
                                 </div>
                             </div>
@@ -216,78 +254,63 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <h1>Confira nosso artigo mais recent</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Detecção de doenças, exame no laboratório</h5>
-                            <p class="card-text">Nesse caso, o papel do laboratório de saúde é muito importante para realizar uma detecção de doenças...</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+            <div class="container">
+                <div class="row" id="Artigos">
+                    <div class="col-12" id="TituloArtigos">
+                        <h1 class="text-center">Confira nosso artigo mais
+                            recente</h1>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="card"
-                        style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Medicamentos fitoterápicos seguros para consumo</h5>
-                            <p class="card-text">A medicina herbal é amplamente utilizada atualmente porque é muito boa para sua saúde...</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="row" id="CardsArtigos">
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Detecção de doenças,
+                                    exame no laboratório</h5>
+                                <p class="card-text">Nesse caso, o papel do
+                                    laboratório de saúde é muito importante para
+                                    realizar uma detecção de doenças...</p>
+                                <a href="#" class="btn btn-primary">Go
+                                    somewhere</a>
+                            </div>
                         </div>
                     </div>
-                </div>
                     <div class="col-3">
                         <div class="card"
-                        style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Cuidados naturais para uma pele facial saudável</h5>
-                            <p class="card-text">Um estilo de vida saudável deve começar agora, inclusive para a saúde da sua pele. Existem algumas...
-</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Medicamentos
+                                    fitoterápicos seguros para consumo</h5>
+                                <p class="card-text">A medicina herbal é
+                                    amplamente utilizada atualmente porque é
+                                    muito boa para sua saúde...</p>
+                                <a href="#" class="btn btn-primary">Go
+                                    somewhere</a>
+                            </div>
                         </div>
-                    </div></div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card"
+                            style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Cuidados naturais para
+                                    uma pele facial saudável</h5>
+                                <p class="card-text">Um estilo de vida saudável
+                                    deve começar agora, inclusive para a saúde
+                                    da sua pele. Existem algumas...
+                                </p>
+                                <a href="#" class="btn btn-primary">Go
+                                    somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-3"><div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to
-                                build on the card title and make up the bulk of
-                                the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div></div><div class="col-3"><div class="card"
-                        style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to
-                                build on the card title and make up the bulk of
-                                the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div></div><div class="col-3"><div class="card"
-                        style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to
-                                build on the card title and make up the bulk of
-                                the card’s content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div></div>
-            </div>
-            <div class="container"> <footer
+            <div class="container">
+                <footer
                     class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
                     <div class="col mb-3"> <a href="/"
                             class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
